@@ -1,29 +1,84 @@
-Project Title:
+# Development of a Quadruped Robot with Sensor Integration and AI-based Object Detection
 
-Development of a Quadruped Robot with Sensor Integration and AI-based Object Detection
+## 📌 Project Description
 
-Project Description:
+This project focuses on the design and development of a **quadruped robot** (similar to Boston Dynamics' SPOT) integrating **mechanical design, real-time control, sensor feedback, and AI-based object detection**. The system is designed for **autonomous navigation, obstacle detection, and stable locomotion**.
 
-This project involves the design and development of a quadruped robot (SPOT-like) using SolidWorks for mechanical modeling and ESP32 microcontroller for sensor interfacing and real-time control. The robotic system integrates multiple sensors for environmental awareness and motion stability, including:
+The robot incorporates a **SolidWorks-based mechanical structure**, an **ESP32 microcontroller** for real-time control and wireless connectivity, and multiple sensors for environmental awareness and safety.
 
-Temperature Sensor – for monitoring thermal conditions and preventing overheating.
+### ✅ Key Highlights:
+- **Quadruped Locomotion** with gait planning and balance control.
+- **Sensor Integration** for real-time feedback.
+- **AI-based Object Detection** for obstacle avoidance and recognition.
+- **Wireless Connectivity** via ESP32 (Wi-Fi & Bluetooth).
+- **Applications** in search and rescue, autonomous inspection, and robotics research.
 
-IMU (Accelerometer, Gyroscope, Magnetometer) – for measuring orientation, acceleration, angular velocity, and heading to maintain stability and balance during locomotion.
+---
 
-Pressure Sensors – mounted on the robot’s feet to detect ground contact and distribute weight efficiently.
+## 🛠️ Features
 
-The robot’s control system is powered by ESP32, which provides Wi-Fi/Bluetooth connectivity for remote control and data transmission. The robot’s gait planning and motion control algorithms ensure smooth walking and obstacle negotiation.
+- **Mechanical Design**
+  - Modeled in **SolidWorks** with optimized structural components for stability and durability.
 
-Additionally, an AI-based object detection system is integrated using a computer vision model (e.g., YOLO, MobileNet, or TensorFlow Lite) deployed on an edge device or onboard processor. This enables the robot to detect, recognize, and respond to objects in its environment, making it capable of autonomous navigation in dynamic surroundings.
+- **Control System**
+  - Powered by **ESP32 microcontroller** for high-speed processing and remote communication.
 
-Key Features:
+- **Sensor Integration**
+  - **IMU (Accelerometer, Gyroscope, Magnetometer)** – Provides orientation, acceleration, and angular velocity data for stability control.
+  - **Pressure Sensors** – Mounted on feet for detecting ground contact and maintaining proper weight distribution.
+  - **Temperature Sensor** – Monitors thermal conditions to prevent overheating.
 
-Mechanical Design: Fully modeled in SolidWorks with optimized structural components for stability and load distribution.
+- **AI-based Object Detection**
+  - Implemented using **YOLO / MobileNet / TensorFlow Lite** for real-time object recognition.
+  - Deployed on an edge device or onboard processor for **low-latency inference**.
 
-Microcontroller: ESP32 for high-speed processing and wireless communication.
+---
 
-Sensors: IMU (Accelerometer, Gyroscope, Magnetometer), Pressure Sensors, and Temperature Sensor for real-time feedback and safety.
+## ⚙️ Hardware Components
+- ESP32 Microcontroller
+- Servo Motors (for leg actuation)
+- IMU Sensor (e.g., MPU6050)
+- Pressure Sensors
+- Temperature Sensor
+- Camera Module for vision and object detection
+- Battery Pack & Power Management Circuit
 
-AI System: Object detection using deep learning-based models integrated with the robot’s vision system.
+---
 
-Applications: Search and rescue, autonomous inspection, surveillance, and research in robotics and AI
+## 💻 Software Components
+- **Mechanical Design**: SolidWorks
+- **Firmware**: Arduino IDE / PlatformIO
+- **Object Detection**: TensorFlow Lite / OpenCV
+- **Communication**: Wi-Fi & Bluetooth (ESP32)
+- **Programming Languages**: C++, Python
+
+---
+
+## 📐 System Workflow
+1. **Gait Planning** – Calculates step sequences for walking.
+2. **Sensor Feedback** – IMU & pressure sensors provide stability and orientation data.
+3. **Motor Control** – ESP32 controls servo motors based on gait and feedback.
+4. **Object Detection** – AI model processes video feed and detects obstacles.
+5. **Autonomous Navigation** – Robot adjusts path based on sensor and vision input.
+
+---
+
+## 🔍 Applications
+- Search and Rescue Operations
+- Industrial Inspection
+- Autonomous Surveillance
+- Robotics and AI Research
+
+---
+
+## 🚀 Future Enhancements
+- Integration with **ROS 2** for advanced motion planning.
+- SLAM (Simultaneous Localization and Mapping) for full autonomy.
+- Improved AI model for multi-object recognition and tracking.
+
+---
+
+
+
+- Email: your.email@example.com
+- GitHub: [YourGitHubProfile](https://github.com/YourGitHubProfile)
