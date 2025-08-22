@@ -78,7 +78,3 @@ The robot incorporates a **SolidWorks-based mechanical structure**, an **ESP32 m
 
 ---
 
-
-
-- Email: your.email@example.com
-- GitHub: [YourGitHubProfile](https://github.com/YourGitHubProfile)
